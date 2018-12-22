@@ -1,99 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Column</title>
     <style>
+        form {
+            display: block;
+            width: 625px;
+            height: 823px;
+            margin-left: auto;
+            margin-top: none;
+            margin-right: auto;
+            background-color: #DDD9D0;
+            border: solid #DDD9D0;
+        }
+
+        .container {
+
+            width: 625px;
+            height: 260px;
+            margin-left: auto;
+            margin-right: auto;
+            background: url("žuta.jpg");
+            margin-top: -20px;
+            background-size: 100% 100%;
+        }
+
+        .container2 {
+            margin-top: 25px;
+            width: 625px;
+            height: 260px;
+            margin-left: auto;
+            margin-right: auto;
+            background: url("roza.jpg");
+            margin-bottom: 0px;
+            background-size: 100% 100%;
+        }
+
+        .container3 {
+            margin-top: 25px;
+            width: 625px;
+            height: 260px;
+            margin-left: auto;
+            margin-right: auto;
+            background: url("telefon.jpg");
+            background-size: 100% 100%;
+        }
+
+        .vertical-align1 {
+            position: relative;
+            width: 625px;
+            height: 250px;
+            top: 35px;
+            left: 25px;
+            -ms-transform: translateY(0%);
+            transform: translateY(0%);
+            margin-bottom: 15px;
+            bottom: 15px;
+        }
+
+        .vertical-align2 {
+            position: absolute;
+            width: 625px;
+            top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            font-family: 'Merriweather', serif;
+            font-weight: 900;
+            color: white;
+        }
+        button {
+            font-family: 'Merriweather', serif;
+            font-weight: 900;
+            color: #FCF8EF;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: 0px solid white;
+            border-radius: 15px;
+            background-color: #B4A4A4;
+            margin-top: 10px;
+        }
     
-    form
-    {
-        display:block;
-          width:625px;
-          margin-left: auto;
-          margin-top:none;
-        margin-right: auto;
-          background-color :#DDD9D0;
-          border:solid #DDD9D0;
+        .vertical-align3 {
+            position: absolute;
+            width: 625px;
+            top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    }
-    .container
-     {
-
-         margin-top:none;
-        width: 625px;
-         height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        background:url("žuta.jpg");
-       
-        background-size: 100% 100%;
-
-
-     }
-     .container2
-     {
-         margin-top:25px;
-        width: 625px;
-         height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        background:url("roza.jpg");
-       
-        background-size: 100% 100%;
-
-
-
-
-
-     }
-     .container3
-     {
-        margin-top:25px;
-        width: 625px;
-         height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        background:url("telefon.jpg");
-       
-        background-size: 100% 100%;
-
-     }
-    
-    
-    
-    
-    
-
-
-    
-    
-    
-    
+        .vertical-align4 {
+            position: absolute;
+            top: 42px;
+            bottom: 25px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            font-family: 'Roboto', serif;
+            font-weight: 400;
+            color: lightgray;
+            padding: 0.1px;
+            margin: 0.1px;
+            font-size: 15px;
+        }
     </style>
 </head>
 <body>
-<form>
-    
-   
-    <div class="container">
-    
-           
-      
-    </div>
-    
-
- 
-    <div class="container2">
-      
-    </div>
-    <div class = "container3">
-
-
-    </div>
-
-</form>
-
+    <form>
+        <div class="container">
+            <div class="vertical-align1">
+                <h1>Život u Splitu</h1>
+                <div class="vertical-align2">
+                    <p><span>Lorem ipsum dolor sit amet, consectur adipiscin elit, sed do eiusmod tempor</span></p>
+                    <p><span>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</span></p>
+                    <p><span>
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Aed do
+                        </span></p>
+                    <div class="vertical-align3">
+                        <button>Građani</button>
+                        <button>Edukacija i odgoj</button>
+                        <button>Stanovanje i gradnja</button>
+                        <button>Kultura</button>
+                        <div class="vertical-align4">
+                            <button>Sport</button>
+                            <button>Promet</button>
+                            <button>Naknade i porezi</button>
+                            <button>Gradski kotari i mjesni odbori</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="vertical-align1">
+                    <h1>Službeni grad</h1>
+                    <div class="vertical-align2">
+                        <p><span>Na mjernoj postaji smještenoj na području gradskog kotara Kamen s južne strane</span></p>
+                        <p><span>Karepovca, kontinuirano se provode mjerenja sljedećih parametara kvalitete zraka</span></p>
+                        <div class="vertical-align3">
+                            <button>Gradski kotari i mjesni odbori</button>
+                            <button>Građani</button>
+                            <button>Edukacija i odgoj</button>
+                            <button>Sport</button>
+                            <div class="vertical-align4">
+                                <button>Stanovanje i gradnja</button>
+                                <button>Kultura</button>
+                                <button>Promet</button>
+                                <button>Naknade i porezi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="vertical-align1">
+                        <h1>Servisne informacije</h1>
+                        <div class="vertical-align2">
+                            <p><span>Na mjernoj postaji smještenoj na području gradskog kotara Kamen s južne strane</span></p>
+                            <p><span>Karepovca, kontinuirano se provode mjerenja sljedećih parametara kvalitete zraka</span></p>
+                            <div class="vertical-align3">
+                                <button>Gradski kotari i mjesni odbori</button>
+                                <button>Građani</button>
+                                <button>Edukacija i odgoj</button>
+                                <button>Sport</button>
+                                <div class="vertical-align4">
+                                    <button>Stanovanje i gradnja</button>
+                                    <button>Kultura</button>
+                                    <button>Promet</button>
+                                    <button>Naknade i porezi</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </form>
 </body>
 </html>
